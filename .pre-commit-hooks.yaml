@@ -1,0 +1,7 @@
+-   id: compile-messages
+    name: run compilemessages django admin command
+    description: prevent outdated translations to be committed
+    entry: compile-messages
+    language: python
+    stages: [pre-commit, pre-push, manual]
+    minimum_pre_commit_version: 3.2.0
