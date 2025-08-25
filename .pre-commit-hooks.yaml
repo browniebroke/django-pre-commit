@@ -3,6 +3,6 @@
     description: prevent outdated translations to be committed
     language: python
     entry: compile-messages
-    files: ".*\.po"
+    files: '.*\.po'
     stages: [pre-commit, pre-push, manual]
     minimum_pre_commit_version: 3.2.0
